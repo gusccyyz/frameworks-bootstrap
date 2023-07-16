@@ -1,0 +1,250 @@
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #343a40;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+}
+
+/* Agrega estilos para los colores */
+nav.navbar {
+  background-color: #444444;
+}
+
+header {
+  background-color: #333333;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 300px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.login-component,
+.register-component,
+.third-component {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-component button,
+.register-component button,
+.third-component button {
+  margin-top: 10px;
+}
+
+.component-container {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+.login-component {
+  background-color: #8e8d8d;
+  width: 100%;
+  height: 100px;
+}
+
+.register-component {
+  background-color: #444444;
+  width: 100%;
+  height: 100px;
+}
+
+.third-component {
+  background-color: #cccccc;
+  width: 100%;
+  height: 100px;
+}
+
+.login-button {
+  background-color: #003e2b;
+  color: #cccccc;
+}
+
+.register-button {
+  background-color: #cccccc;
+  color: #003e2b;
+}
+
+.login-button,
+.register-button {
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  /* Opcional: Ajusta el margen según tus preferencias */
+}
+
+.login-button:hover {
+  background-color: #45a049;
+  color: #ffffff;
+}
+
+.register-button:hover {
+  background-color: #8e8d8d;
+  color: #74e0af;
+}
+
+.login-button:active,
+.register-button:active {
+  background-color: #222;
+  transform: translateY(1px);
+}
+
+.navbar {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-nav {
+  flex-basis: 20%;
+  text-align: center;
+}
+
+.navbar-nav a.nav-link {
+  color: #74e0af;
+}
+
+.custom-img {
+  max-width: 10%;
+  height: 100%;
+}
+
+.col-4 {
+  width: 100%;
+}
+
+.col-4 > * {
+  width: 100%;
+  height: 100px;
+}
+
+.author-profile .profile-picture img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.aside-right img {
+  max-width: 100%;
+  height: auto;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+  /* Ajusta el espacio entre los íconos según tus preferencias */
+}
+
+.social-links img {
+  width: 30px;
+  /* Ajusta el tamaño según tus preferencias */
+  height: 30px;
+  /* Ajusta el tamaño según tus preferencias */
+}
+
+.col-2 {
+  background-color: #444444;
+}
+
+.col-6 {
+  background-color: #222222;
+}
+
+.col-md-4 {
+  background-color: #8e8d8d;
+}
+
+body {
+  /* ... */
+  font-size: 14px;
+  /* Ajusta el tamaño de letra principal */
+}
+
+h5 {
+  font-size: 1.1em;
+  /* Ajusta el tamaño de letra para los encabezados */
+}
+
+h1,
+h2,
+h3,
+h4,
+h6 {
+  font-size: 2em;
+  /* Ajusta el tamaño de letra para los encabezados */
+}
+
+p {
+  font-size: 0.8em;
+  /* Ajusta el tamaño de letra para los párrafos */
+}
+
+.main {
+  height: 500px;
+}
+
+footer {
+  width: 1000px;
+  height: 50px;
+  float: left;
+  background-color: #111111;
+  color: #ffffff;
+  padding: 16px 40px 0px 40px;
+  /* Aplica un espacio de relleno de 0px arriba y abajo, y 40px a la izquierda y derecha */
+}
+
+.col-2 .author-profile {
+  padding: 5px;
+}
+
+.col-6 .article {
+  padding: 5px;
+}
+
+.article {
+  color: #cccccc;
+}
+
+.col-md-4 .aside-right {
+  padding: 5px;
+}
+
+.aside-right h3 {
+  color: black;
+}
+
+.aside-right a {
+  color: blue;
+}
+
+.aside-right {
+  max-width: 290px;
+}
